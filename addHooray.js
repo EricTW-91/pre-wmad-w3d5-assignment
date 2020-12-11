@@ -6,6 +6,15 @@ let food = ['apple', 'orange', 'cake', 'carrots', 'pasta', 'rice', 'eggs'];
 
 const addHooray = function (arr) {
 
+    let result = [];
+
+    for (i = 0; i < arr.length; i++) {
+        
+        let combineWords = arr[i] + "Horray";
+
+        result.push(combineWords);
+    }
+    console.log(result);
 };
 
 addHooray(food);
